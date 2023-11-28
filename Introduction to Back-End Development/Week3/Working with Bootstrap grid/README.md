@@ -90,5 +90,5 @@ I've successfully updated the Little Lemon website to use Bootstrap Components.
 I've successfully completed these steps, and now my Little Lemon website features Bootstrap Components.
 ```
 
-![Little Lemon Website](Little_Lemon.png)
+![Little Lemon Website](little_lemon)
 ```
