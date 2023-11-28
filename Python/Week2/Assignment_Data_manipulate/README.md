@@ -1,4 +1,4 @@
-# Lab: Read in data, store, manipulate and output new data to a file
+# Read in data, store, manipulate and output new data to a file
 
 In this lab I read the contents of a file and then wrote the contents to another file.  
 I stored the contents of a file into a list so that it can be accessed in different ways. 
