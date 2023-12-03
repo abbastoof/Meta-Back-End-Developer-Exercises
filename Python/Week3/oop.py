@@ -15,6 +15,27 @@ class Alpha:
 	def __init__(self):
 		self._a = 2.  # Protected member ‘a’
 		self.__b = 2.  # Private member ‘b’
+
+	def show(self):
+		print(self._a)
+		print(self.__b)  # Private member ‘b’
+
+	def show2(self):
+		print(self._a)
+		print(self.__b)  # Private member ‘b’
+
+class Beta(Alpha): # Inherit from Alpha
+
+	def __init__(self): # Constructor of Beta class (inherits from Alpha)
+		Alpha.__init__(self) # Call constructor of Alpha class (super class)
+
+	def show(self):
+		print(self._a)
+		print(self.__b)  # Private member ‘b’
+
+	def show2(self):
+		print(self._a)
+		print(self.__b)  # Private member ‘b’
 # self._a is a protected member and can be accessed by the class and its subclasses.
 
 # Private members in Python are conventionally used with preceding double underscores:
