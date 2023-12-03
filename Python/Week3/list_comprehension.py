@@ -106,3 +106,11 @@ newdata = map(square, data)
 # newdata = [x + 3 for x in data]
 
 print(newdata)
+
+
+numbers = [15, 30, 47, 82, 95]
+def lesser(numbers):
+   return numbers < 50
+
+small = list(map(lesser, numbers)) # why map return a true or false value for each element in the list, but filter return the element itself? because map is used to apply a function to each element in the list, but filter is used to filter out the elements that don't meet the condition.
+print(small)
