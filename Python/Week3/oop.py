@@ -70,3 +70,13 @@ house.num_rooms = 7
 # House.num_rooms = 7
 print(house.num_rooms)
 print(House.num_rooms)
+
+class MyFirstClass:
+	def __init__(self):
+		print("Who wrote this?")
+	index = "Author-Book"
+	def hand_list(self, philosopher, book):
+		print(philosopher + " wrote the book: " + book)
+whodunnit = MyFirstClass()
+whodunnit.hand_list("Sun Tzu", "The Art of War")
+
